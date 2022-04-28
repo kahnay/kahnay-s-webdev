@@ -1,5 +1,5 @@
 body {
-  background-color: #f3d5c0;
+  background-color: #f0e9d2;
 }
 h2 {
   padding: 20px;
@@ -7,16 +7,16 @@ h2 {
   text-align: center;
   font-size: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #506d84;
+  color: #181d31;
 }
 h3 {
-  color: #506d84;
+  color: #181d31;
   text-align: left;
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 p {
-  color: #506d84;
+  color: #181d31;
   text-align: left;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -25,11 +25,14 @@ ul {
   padding: 20px;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #506d84;
+  background-color: #181d31;
   color: #d4b499;
 }
 #section-1 {
   background-color: #d4b499;
+}
+#section-2 {
+  background-color: #181d31;
 }
 a {
   color: #d4b499;
