@@ -1,21 +1,33 @@
+/*this is the back ground colour*/
 body {
   background-color: #f3d5c0;
 }
 h2 {
+  /*this made the main header larger*/
   padding: 20px;
+  /*this changed the color of the main header*/
   background-color: #d4b499;
+  /*this made the text in the center*/
   text-align: center;
+  /*this made the text larger*/
   font-size: 40px;
+  /*this made the text a spicifec font so its eayser to read*/
   font-family: Georgia, "Times New Roman", Times, serif;
+  /*this changed the color of the font*/
   color: #1a374d;
 }
 h3 {
+  /*this changed the color of the text*/
   color: #1a374d;
+  /*this made sure the text was on the left*/
   text-align: left;
+  /*this made the font larger*/
   font-size: 30px;
+  /*this changed the font to one easyer to read*/
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 p {
+  /*this changed the color of the text*/
   color: #1a374d;
   text-align: left;
   font-size: 20px;
