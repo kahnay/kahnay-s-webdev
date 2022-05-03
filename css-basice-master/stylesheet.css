@@ -32,8 +32,20 @@ ul {
   background-color: #d4b499;
 }
 #section-2 {
+  padding: 20px;
   background-color: #1a374d;
 }
 a {
   color: #d4b499;
+  background-color: #1a374d;
+  padding: 20px;
+  text-decoration: none;
+}
+li {
+  display: inline;
+}
+a:hover {
+  padding: 20px;
+  background-color: #d4b499;
+  color: #1a374d;
 }
