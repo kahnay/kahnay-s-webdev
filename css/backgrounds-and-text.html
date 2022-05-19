@@ -16,11 +16,11 @@
       }
 
       /*
-      Styles all elements in the body to have a font color of #291541. It also 
-      sets the background colour of the entire webpage to ghostwhite. 
-    */
+        Styles all elements in the body to have a font color of #291541. It also
+        sets the background colour of the entire webpage to ghostwhite.
+      */
       body {
-        background: url(backgrownd.jpg);
+        background: url(https://cdn.wallpapersafari.com/4/63/EzDays.jpg);
         background-repeat: repeat;
         background-size: cover;
       }
@@ -35,43 +35,76 @@
         margin: 4px;
 
         /* Adds styling to the border of the element */
-        border: 2px solid black;
+        border: 2px solid rgb(255, 0, 0);
 
         /* Adds 5 pixels of space around the inside of each anchor in the nav */
         padding: 5px;
 
-        /* 
-        Sets the background colour of the nav to b1 #121212 and the font color 
-        to be #eeffee.
-      */
-        background-color: #003100;
-        color: #eeffee;
+        /*
+          Sets the background colour of the nav to b1 #121212 and the font color
+          to be #eeffee.
+        */
+        background-color: #0400ff;
+        color: #1100ff;
 
         /* Sets the text to have a bolder font weight. */
         font-weight: bolder;
       }
 
-      /* 
-      Swaps out the colour scheme of anchors in the nav when they are hovered over 
-      or focused on.
-    */
+      /*
+        Swaps out the colour scheme of anchors in the nav when they are hovered over
+        or focused on.
+      */
       nav a:hover,
       nav a:focus {
-        background-color: #eeffee;
-        color: #003100;
+        background-color: #ff0000;
+        color: #ff0000;
+      }
+
+      /* Changes the colour of the links that have been visited already. */
+      nav a {
+        /* Adds 4 pixels of space around the outside of each anchor in the nav */
+        margin: 4px;
+
+        /* Adds styling to the border of the element */
+        border: 2px solid rgb(0, 26, 255);
+
+        /* Adds 5 pixels of space around the inside of each anchor in the nav */
+        padding: 5px;
+
+        /*
+          Sets the background colour of the nav to #00549E and the font color
+          to be aliceblue.
+        */
+        background-color: #ff0000;
+        color: #e5ff00;
+
+        /* Sets the text to have a bolder font weight. */
+        font-weight: bolder;
+      }
+
+      /*
+        Swaps out the colour scheme of anchors in the nav when they are hovered over
+        or focused on.
+      */
+      nav a:hover,
+      nav a:focus {
+        background-color: #f0f8ff;
+        color: #00549e;
       }
 
       /* Changes the colour of the links that have been visited already. */
       nav a:visited {
-        color: #9938f2;
+        color: rgb(140, 0, 255);
+        text-shadow: 10px 0px 0px rgb(38, 0, 255);
       }
 
       /* Uses descendant selectors to style all list items that are in the nav-link class elements */
       nav a li {
-        /* 
-        Changes all list items in the nav so that they will display beside one another,
-        but still be affected by Box model properties.
-      */
+        /*
+          Changes all list items in the nav so that they will display beside one another,
+          but still be affected by Box model properties.
+        */
         display: inline-block;
 
         /* Adds spacing around the outside of an element. */
@@ -85,18 +118,32 @@
 
       /* Styles all main headings to use font size of 48 pixels and center aligns the text. */
       h1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+        display: inline-block;
+
+        padding: 10px 30px;
         font-size: 48px;
         text-align: center;
+        color: #e5ff00;
+        background: url(https://cutewallpaper.org/21/90s-backgrounds/90s-Purple-Pink-Backgrounds-for-Powerpoint-Templates-PPT-.jpg);
+        background-repeat: repeat;
+        background-size: cover;
       }
-
       /* Changes the background color of the section to be #5ac88b. */
       section {
-        background-color: #5ac88b;
+        background-image: repeating-radial-gradient(
+          rgb(255, 145, 0),
+          rgb(0, 255, 42) 10%,
+          rgb(89, 0, 255) 15%
+        );
       }
-
       /* Changes the paragraphs in the section to have a bold font weight. */
       section p {
         font-weight: bold;
+        color: rgb(255, 0, 0);
       }
     </style>
   </head>
@@ -129,7 +176,6 @@
         <p>Stuff</p>
         <p>More Stuff</p>
         <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <img src="images.jfif" />
       </section>
     </main>
   </body>
