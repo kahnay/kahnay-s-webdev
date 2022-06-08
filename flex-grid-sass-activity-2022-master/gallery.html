@@ -6,6 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photo Grid | Advanced CSS</title>
     <link rel="stylesheet" href="stylesheets/page-styling.css" />
+    <style>
+      section {
+        display: -ms-grid;
+        display: grid;
+
+        grid-template-rows: repeat(auto-fill, 400px);
+        grid-template-columns: repeat(auto-fill, 400px);
+
+        grid-template-areas:
+          "c1 c3 c3"
+          "c2 c3 c3"
+          "c4 c5 c6"
+          "c7 c7 c8"
+          "c7 c7 c9"
+          "c10 c11 c12";
+
+        gap: 10px;
+      }
+      img {
+        width: 100%;
+      }
+      body {
+        background-color: black;
+      }
+
+      #c3 {
+        grid-area: c3;
+      }
+      #c7 {
+        grid-area: c7;
+      }
+      #c1 {
+        grid-area: c1;
+      }
+      #c2 {
+        grid-area: c2;
+      }
+      #c4 {
+        grid-area: c4;
+      }
+      #c5 {
+        grid-area: c5;
+      }
+      #c6 {
+        grid-area: c6;
+      }
+      #c8 {
+        grid-area: c8;
+      }
+      #c9 {
+        grid-area: c9;
+      }
+      #c3 {
+        grid-area: c10;
+      }
+      #c3 {
+        grid-area: c11;
+      }
+      #c3 {
+        grid-area: c12;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -26,18 +88,18 @@
     <main>
       <h2>CSS Grid Photo Gallery</h2>
       <section>
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
+        <img src="images/c1.jpg" id="c1" />
+        <img src="images/c2.jpg" id="c2" />
+        <img src="images/c3.jpg" id="c3" />
+        <img src="images/c4.jpg" id="c4" />
+        <img src="images/c5.jpg" id="c5" />
+        <img src="images/c6.jpg" id="c6" />
+        <img src="images/c7.jpg" id="c7" />
+        <img src="images/c8.jpg" id="c8" />
+        <img src="images/c9.jpg" id="c9" />
+        <img src="images/c10.jpg" id="c10" />
+        <img src="images/c11.jpg" id="c11" />
+        <img src="images/c12.jpg" id="c12" />
       </section>
     </main>
   </body>
